@@ -1,6 +1,5 @@
 ---
 title: "3-部署一个UniswapV3"
-date: 2022-09-21T16:16:37+08:00
 draft: false
 ---
 ## 前沿
@@ -11,13 +10,13 @@ draft: false
 首先安装UniswapV3，我们要知道一件事。Uniswap的合约分为两个，一个是`v3-periphery` 另外一个是`v3-core` 。现在简单介绍一下这两个仓库的合约是代表什么。
 ### v3-core
 core合约是uniswap中负责掌管pool和factory的仓库。
-pool：是资金存储和交换运算的合约。
-factory：用于批量创造Pool的合约。
+- pool：是资金存储和交换运算的合约。
+- factory：用于批量创造Pool的合约。
 这两个合约是整个uniswap的核心。就算在没有periphery的情况下，也能正常运行的最小合约。
 ### v3-periphery
 periphery存放的是外围合约，这些合约是给用户和开发者一个统一的接口或者是便捷的通证。核心合约有NFTManager和SwapRouter。
-NFTManager：一个用于记录用户创建的流动性各类数据的合约。
-SwapRouter：包装类，将交换的各种逻辑进行包装抽象。
+- NFTManager：一个用于记录用户创建的流动性各类数据的合约。
+- SwapRouter：包装类，将交换的各种逻辑进行包装抽象。
 这里我们不过度展开UniswapV3的逻辑。我们重点是如何去部署他。
 通过执行
 ```shell

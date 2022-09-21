@@ -1,6 +1,5 @@
 ---
 title: "2-Solidity环境"
-date: 2022-09-21T16:16:37+08:00
 draft: false
 ---
 ## 前言

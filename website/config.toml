@@ -6,3 +6,8 @@ theme = "hugo-book"
 [params]
     # (Optional) If you have enabled BookComments for the site, you can disable it for specific pages.
     BookServiceWorker = true
+    BookTheme = 'dark'
+    BookSection = '*'
+[markup]
+    [markup.highlight]
+        style = 'paraiso-dark'
