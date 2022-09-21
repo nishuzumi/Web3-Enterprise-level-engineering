@@ -1,0 +1,8 @@
+googleAnalytics = 'UA-36085609-4'
+baseURL = 'http://web3ee.web3box.dev/'
+languageCode = 'zh-cn'
+title = 'Web3企业级工程'
+theme = "hugo-book"
+[params]
+    # (Optional) If you have enabled BookComments for the site, you can disable it for specific pages.
+    BookServiceWorker = true
