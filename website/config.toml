@@ -8,6 +8,23 @@ theme = "hugo-book"
     BookServiceWorker = true
     BookTheme = 'dark'
     BookSection = '*'
+[menu]
+[[menu.before]]
+  name = "🐦 @BoxMrChen 的 推特"
+  url = "https://twitter.com/BoxMrChen"
+  weight = 10
+[[menu.before]]
+  name = "🫂 微信群（还没有）"
+  url = "#"
+  weight = 20
+[[menu.before]]
+  name = "📖 Github仓库"
+  url = "https://github.com/nishuzumi/Web3-Enterprise-level-engineering"
+  weight = 30
+[[menu.before]]
+  name = "🐼 ETH地址 boxchen.eth"
+  url = "https://etherscan.io/enslookup-search?search=boxchen.eth"
+  weight = 40
 [markup]
     [markup.highlight]
         style = 'paraiso-dark'
