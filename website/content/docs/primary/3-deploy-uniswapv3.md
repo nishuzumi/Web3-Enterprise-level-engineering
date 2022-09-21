@@ -127,4 +127,3 @@ export default func;
 不过，通过bytecode直接部署会有一些不好的地方，比如在出错的时候，你无法获得源码级别的错误追踪。并且，我们部署的也是一个残缺的版本，因为我们还缺少NonfungiblePositionManager，NonfungibleTokenPositionDescriptor，NFTDescriptor合约，不过，它们的部署方式都是一样的。你可以试着用上述的方法添加它们。就当是课后作业啦。
 ## 结语
 这一个章节只构建了通过bytecode部署uniswap的基础文件，但是我们的内容其实是不够一个实际的uniswap运行的。所以在下一章节，我们会使用另外一种方式部署uniswapv3，并且编写测试用例。等测试用例通过后，我们再用源码编译的方式对UniswapV3进行部署。
-PS：我发现mirror不太适合写这种技术类文章，后续会切换到其他平台。
