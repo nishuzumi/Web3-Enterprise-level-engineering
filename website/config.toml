@@ -8,7 +8,7 @@ theme = "hugo-book"
     BookServiceWorker = true
     BookTheme = 'dark'
     BookSection = '*'
-    description = 'Web3企业级工程开发指南'
+    description = 'Web3企业级工程开发指南，该系列内容为Web3开发中工程化所遇到的各种问题指南，包含开发部署测试等一些列问题的解决方案。Made with ❤️ by Web3Box'
     images = ['images/primary_banner.png']
     title = 'Web3企业级工程'
 [taxonomies]
