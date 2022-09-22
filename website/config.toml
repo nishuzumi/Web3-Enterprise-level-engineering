@@ -8,6 +8,11 @@ theme = "hugo-book"
     BookServiceWorker = true
     BookTheme = 'dark'
     BookSection = '*'
+    description = 'Web3企业级工程开发指南'
+    images = ['images/primary_banner.png']
+    title = 'Web3企业级工程'
+[taxonomies]
+    series = 'series'
 [menu]
 [[menu.before]]
   name = "🐦 @BoxMrChen 的 推特"

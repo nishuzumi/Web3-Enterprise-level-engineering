@@ -1,8 +1,7 @@
 ---
 title: "2-Solidity环境"
-draft: false
+image: '/images/primary_banner.png'
 ---
-![](/images/primary_banner.png)
 ## 前言
 本篇会介绍常用的几种Solidity开发环境，同时会推荐一种最为合适的开发环境并且安装必要的内容。
 ## 环境介绍

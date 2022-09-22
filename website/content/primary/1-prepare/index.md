@@ -1,8 +1,7 @@
 ---
 title: "1-前期准备"
-draft: false
+image: '/images/primary_banner.png'
 ---
-![](/images/primary_banner.png)
 ## 前言
 在文章开始前，先明确好几个阅读要点。文章中会多次出现，`必要条件`，`可选内容`，`一定不要`，`注意⚠️` 等词。他们的意思分别为。
 * `必要条件`：属于一定需要的内容，缺少后将会无法进行教程。

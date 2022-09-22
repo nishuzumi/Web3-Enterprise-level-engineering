@@ -1,8 +1,7 @@
 ---
 title: "3-部署一个UniswapV3"
-draft: false
+image: '/images/primary_banner.png'
 ---
-![](/images/primary_banner.png)
 ## 前沿
 既然是一个循序渐进的教程，那么肯定不能一上来就开始写代码。就好比你想造一台永动机，你至少要知道这个永动机动起来是什么样子，你才能更好的去分解他。
 所以这一章节我们主要是部署一个UniswapV3，所以这章节的目的是快速并且简单的部署好一个UniswapV3，用于未来我们程序和Uni的联调。
